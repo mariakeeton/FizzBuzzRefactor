@@ -31,6 +31,9 @@ $(document).ready(function() {
 				alert('Enter a Number');
 		}else if(num % 1 !==0){
 			alert('Enter Whole Number');
+		}
+		else if (num  <= 0) {
+			alert('Enter Number Greater Than 0');
 		}else if (num % 1 == 0){
 		for (var j = 1; j <= num; j++) {
 			var number=j;
