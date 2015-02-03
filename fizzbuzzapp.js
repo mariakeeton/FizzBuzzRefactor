@@ -15,7 +15,6 @@ $(document).ready(function() {
 
 	var fizzButton = $('button');
 	var fizzInput = $('input');
-	var errMsg = "";
 		//Add item to list if Add Item button is pressed
 	fizzButton.click(function() {
 		fizzbuzzer(fizzInput.val());
